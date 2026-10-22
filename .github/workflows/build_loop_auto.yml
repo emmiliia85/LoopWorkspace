@@ -258,7 +258,7 @@ jobs:
             sed -i "" "/puts(Terminal::Table.new(params))/d" "$TABLE_PRINTER_PATH"
           else
             echo "table_printer.rb not found"
-            exit 1
+            exit 0
           fi
 
       # Install project dependencies
